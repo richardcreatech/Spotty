@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSearch } from '@fortawesome/free-solid-svg-icons'
 
 function App() {
   const [artist, setArtist] = useState(null);
@@ -59,7 +61,9 @@ function App() {
             onChange={(e) => setSearch(e.target.value)}
           />
 
-          <button onClick={handleSearch}>🔍</button>
+          <button onClick={handleSearch}>
+            <FontAwesomeIcon icon={faSearch} />
+          </button>
         </div>
 
      <div className="results">

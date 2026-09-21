@@ -21,13 +21,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  background:
-    radial-gradient(
-      circle at 50% 45%,
-      rgba(29, 215, 96, 0.12),
-      transparent 35%
-    ),
-    #050505;
+  
 
   color: white;
 }
@@ -62,9 +56,7 @@ body {
 .search-container h1 span {
   color: #1ed760;
 
-  text-shadow:
-    0 0 10px rgba(29, 215, 96, 0.7),
-    0 0 30px rgba(29, 215, 96, 0.4);
+  
 }
 
 .subtitle {
@@ -91,13 +83,11 @@ body {
 
   border: 1px solid rgba(29, 215, 96, 0.35);
 
-  border-radius: 60px;
+  border-radius:10px;
 
   background: rgba(15, 15, 15, 0.8);
 
   box-shadow:
-    0 0 20px rgba(29, 215, 96, 0.08),
-    inset 0 0 20px rgba(29, 215, 96, 0.03);
 }
 
 .search-box input {
@@ -124,7 +114,7 @@ body {
   height: 55px;
 
   border: none;
-  border-radius: 50%;
+  border-radius: 12%;
 
   background: #1ed760;
 
@@ -134,7 +124,6 @@ body {
 
   transition: 0.25s ease;
 
-  box-shadow: 0 0 20px rgba(29, 215, 96, 0.35);
 }
 
 .search-box button:hover {
@@ -167,12 +156,7 @@ body {
   left: -150px;
 }
 
-.glow-pink {
-  background: #ff1493;
 
-  bottom: -150px;
-  right: -150px;
-}
 
 /* Floating hearts */
 
