@@ -11,7 +11,7 @@ function App() {
     }
 
     const response = await fetch(
-      `http://localhost:5000/spotify/search?q=${encodeURIComponent(search)}`,
+      `https://spotty-24tc.onrender.com/spotify/search?q=${encodeURIComponent(search)}`,
     );
 
     const data = await response.json();
