@@ -22,7 +22,7 @@ function App() {
   };
 
   useEffect(() => {
-    fetch("http://localhost:5000/spotify/artist/6fWVd57NKTalqvmjRd2t8Z")
+    fetch("https://spotty-24tc.onrender.com/spotify/artist/6fWVd57NKTalqvmjRd2t8Z")
       .then((response) => response.json())
       .then((data) => {
         console.log(data);

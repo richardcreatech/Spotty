@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Spotty",
+  "version": "1.0.0",
+  "description": "Your Spotty Chrome extension",
+  "action": {
+    "default_popup": "index.html"
+  }
+}
