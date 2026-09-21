@@ -229,6 +229,8 @@ body {
 .results {
   display: flex;
   gap: 3rem;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   overflow-x: auto;
   padding: 2rem 1rem 2.5rem;
