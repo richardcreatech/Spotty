@@ -62,18 +62,25 @@ function App() {
           <button onClick={handleSearch}>🔍</button>
         </div>
 
-        <div className="results">
-          {results.map((artist) => (
-            <div className="artist-result" key={artist.id}>
-              <img src={artist.images[0]?.url} alt={artist.name} />
-
-              <div>
-                <h2>{artist.name}</h2>
-                <p>Artist</p>
-              </div>
-            </div>
-          ))}
+     <div className="results">
+  {results.map((artist) => (
+    <div className="artist-result" key={artist.id}>
+      <div className="record">
+        <div className="record-image">
+          <img
+            src={artist.images[0]?.url}
+            alt={artist.name}
+          />
         </div>
+      </div>
+
+      <div className="artist-info">
+        <h2>{artist.name}</h2>
+        <p>Artist</p>
+      </div>
+    </div>
+  ))}
+</div>
       </section>
     </main>
   );
